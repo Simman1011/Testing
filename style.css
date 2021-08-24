@@ -1,0 +1,11 @@
+.container {
+    background-color: rgba(78, 78, 255, 0.89);
+    height: 100vh;
+}
+
+.container .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
