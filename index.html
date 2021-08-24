@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mfd/assets/css/style.css">
+    <link href="mfd/assets/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+    <meta name="theme-color" content="#007aff">
+    <title>Ahaguru</title>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M33TZK2');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '232052807296234');
+        fbq('track', 'PageView');
+        fbq('track', 'ViewContent');
+    </script>
+    <noscript>
+        <img height="1" width="1" src="https://www.facebook.com/tr?id=232052807296234&ev=PageView
+&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <!-- Global site tag (gtag.js) - Google Ads: 849417668 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-849417668"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-849417668');
+    </script>
+
+    <!-- microsoft clarity-->
+    <script>
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () {
+                (c[a].q = c[a].q || []).push(arguments)
+            };
+            t = l.createElement(r);
+            t.async = 1;
+            t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0];
+            y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "6k4p1p2c46");
+    </script>
+    <!-- microsoft clarity-->
+
+    <style>
+        /* The Modal (background) */
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 100;
+            /* Sit on top */
+            padding-top: 100px;
+            /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100vh;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            /* background-color: rgba(0, 0, 0, 0.4); */
+            /* Black w/ opacity */
+        }
+
+        /* Modal Content */
+        .modal-content {
+            position: relative;
+            background-color: #000;
+            margin: auto;
+            padding: 0;
+            /* border: 1px solid #888; */
+            width: 100%;
+            height: 300px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            -webkit-animation-name: animatetop;
+            -webkit-animation-duration: 0.4s;
+            animation-name: animatetop;
+            animation-duration: 0.4s
+        }
+
+        /* Add Animation */
+        @-webkit-keyframes animatetop {
+            from {
+                top: -300px;
+                opacity: 0
+            }
+
+            to {
+                top: 0;
+                opacity: 1
+            }
+        }
+
+        @keyframes animatetop {
+            from {
+                top: -300px;
+                opacity: 0
+            }
+
+            to {
+                top: 0;
+                opacity: 1
+            }
+        }
+
+        /* The Close Button */
+        .close {
+            color: white;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .modal-header {
+            padding: 2px 16px;
+            background-color: transparent;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="hide-desk">
+            <ul class="nav-menu-mobile">
+                <li class="nav-items"><a href="https://www.ahaguru.com/"><img src="mfd/assets/img/ahaguru-logo.png"
+                            alt="logo" width="97" height="24"></a>
+                </li>
+                <!-- <li class="nav-items"><a class="courses" href="https://www.ahaguru.com/iit-jee-neet">Courses</a>
+                </li> -->
+            </ul>
+        </div>
+
+        <div class="hide-mobile">
+            <div class="two-col">
+                <ul class="nav-menu-desk-left">
+                    <li class="nav-items">
+                        <a href="https://www.ahaguru.com/">
+                            <img src="mfd/assets/img/ahaguru-logo.png" alt="logo" width="97" height="24" />
+                        </a>
+                    </li>
+
+                </ul>
+                <!-- <ul class="nav-menu-desk-left">
+                    <li class="nav-items"><a class="courses" href="https://www.ahaguru.com/iit-jee-neet">Courses</a>
+                    </li>
+                </ul> -->
+            </div>
+        </div>
+    </header>
+
+    <section class="header-banner-oci">
+        <div class="oci-header">
+            <div class="left-content">
+                <h3 class="oc-text-ani1">Join India's Leading</h3>
+                <h3 class="oc-text-ani2">Online Coaching Institute</h3>
+                <h3 class="oc-text-ani3">for IIT JEE/NEET</h3>
+                <p class="oc-text-ani4">Make your child's learning easier</p>
+            </div>
+            <div class="header-video">
+                <button id="myBtn">
+                    <picture id="enquire-form">
+                        <source media="(min-width: )" srcset="" sizes="">
+                        <source media="(min-width: )" srcset="" sizes="">
+                        <img src="mfd/assets/img/balaji_placeholder.png" alt="rectangle" height="200" width="100%">
+                    </picture>
+                </button>
+                <!-- <div id="myiframeModal" class="iframemodal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close pause-video">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <iframe class="youtube-video"
+                                src="https://www.youtube.com/embed/LfTO5Dqt6Wg?enablejsapi=1&version=3&playerapiid=ytplayer&rel=0"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <div id="myModal" class="modal iframemodal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close pause-video">&times;</span>
+            </div>
+            <div class="modal-body" style="height: 100%;">
+                <!-- <iframe style="height: 100%;" class="youtube-video"
+                    src="https://r1---sn-npoe7nek.googlevideo.com/videoplayback?expire=1629819215&ei=77wkYejQKIWA0wWC0KwQ&ip=36.37.251.171&id=o-ANTbLnE_l-63l1IkIh1mui0zjmslDP-s0a0PAQFykGsq&itag=18&source=youtube&requiressl=yes&vprv=1&mime=video%2Fmp4&ns=7f6_20GmoINebhoWDgatwyoG&gir=yes&clen=3761614&ratebypass=yes&dur=86.889&lmt=1609588876345245&fexp=24001373,24007246&c=WEB&txp=5531422&n=WsFKleNluOQgT0aiC&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRQIgSEiup1QTgMD3htNilhM8HczKz-WaDKdX_sSG_b_GnpgCIQDpVsygo9qM2qMNhJW78MSZun1xv_mE-pDtKcVTm25X7A%3D%3D&rm=sn-8pxuuxaj5hcvqp5-2oid7e&req_id=21fa9e57df7a3ee&ipbypass=yes&redirect_counter=2&cm2rm=sn-npolk7e&cms_redirect=yes&mh=qu&mip=106.222.124.130&mm=34&mn=sn-npoe7nek&ms=ltu&mt=1629800189&mv=m&mvi=1&pl=21&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIgKkjTOuZ68HSt5qGa20Gng4eu2yI3uVIFJw6t8WLyGWQCIQDvsB2T4N4VWG44K_TvAk8O2PkO1mHkW1q58FK8vCbjgA%3D%3D?autoplay=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay=0; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    sandbox></iframe> -->
+                <video style="height: 100%; width: 100%;" class="youtube-video" controls sandbox>
+                    <source src="mfd/assets/img/videoplayback.mp4?autoplay=0" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <section class="form-sec" id="enquire-form">
+        <h3>Book a call with</h3>
+        <h3>our counselor</h3>
+
+
+        <div data-paperform-id="ahaguru"></div>
+        <script>
+            (function () {
+                var script = document.createElement('script');
+                script.src = "https://paperform.co/__embed.min.js";
+                document.body.appendChild(script);
+            })()
+        </script>
+        <script>
+            (function () {
+                var script = document.createElement('script');
+                script.src = "https://paperform.co/__embed.min.js";
+                document.body.appendChild(script);
+            })()
+        </script>
+    </section>
+
+
+    <section class="chooseyourplan">
+        <div class="title">Choose your plan</div>
+        <div class="three_col_grid">
+            <div class="box">
+                <img src="mfd/assets/img/lab_stu.png" alt="lab_stu" width="78%" style="right: -70px; bottom: -60px;">
+                <h4>LIVE Online Classes</h4>
+                <p>Live and Interactive classes by Expert Teachers.</p>
+                <p>Learn from the comfort of your home.</p>
+                <ul>
+                    <li>Live classes</li>
+                    <li>Printed Workbooks & Study Materials</li>
+                    <li>Concept Videos & solved examples</li>
+                    <li>Personal mentor to guide you and <br> clear your doubts</li>
+                </ul>
+
+                <p class="para">Time Required</p>
+                <p class="para">8 hr per week for each subject</p>
+                <a href="#enquire-form" class="btn initiate-payment">ENQUIRE NOW</a>
+            </div>
+            <div class="box">
+                <img src="mfd/assets/img/Student_PNG.png" alt="lab_stu" width="60%"
+                    style="right: -60px; bottom: -10px;">
+                <h4>Mentored Learning Program</h4>
+                <p>You get access to our recorded sessions by expert Teachers and mentors to help you with study planner
+                    and clearing doubts.</p>
+                <ul>
+                    <li>Printed Workbooks & Study Materials</li>
+                    <li>Recorded classes</li>
+                    <li>Concept Videos & solved examples </li>
+                    <li>Personal mentor to guide you and <br> clear your doubts</li>
+                </ul>
+
+                <p class="para">Time Required</p>
+                <p class="para">6 hr per week for each subject</p>
+                <a href="#enquire-form" class="btn initiate-payment">ENQUIRE NOW</a>
+            </div>
+            <div class="box">
+                <img src="mfd/assets/img/third_block_self_study.png" alt="lab_stu" width="50%"
+                    style="right: 0px; bottom: -50px;">
+                <h4>Self Study Course</h4>
+                <p class="box-text">Online video lessons for all topics. Learn any topic, anytime at your pace and
+                    convenience.
+                </p>
+                <ul>
+                    <li>Concept Video Lectures</li>
+                    <li>Solved Video Examples</li>
+                    <li>Practice questions</li>
+                </ul>
+
+                <p class="para">Time Required</p>
+                <p class="para">4 hr per week for each subject</p>
+                <a href="#enquire-form" class="btn initiate-payment">ENQUIRE NOW</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="student_testi">
+        <div class="title">See what our</div>
+        <div class="title">Students has to say</div>
+
+        <div class="block">
+            <div class="two-colo">
+                <div class="stud-img-left">
+                    <img src="mfd/assets/img/nithin.png" alt="nithin">
+                </div>
+                <div class="stud-info">
+                    <h4>Nithin Seyon Ramesan</h4>
+                    <h4>IIT Madras</h4>
+                </div>
+            </div>
+            <div class="stud_say">
+                <p>AhaGuru online course was the major reason for my good
+                    scores in the Physics papers of JEE (Mains) and IIT JEE
+                    (Advanced). In particular, I will always remember the depth
+                    to which I understood the concepts of Relative Motion and
+                    Newton's Laws. Thank you AhaGuru!</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bestteachers">
+        <div class="title">Learn from India's</div>
+        <div class="title">Best Teachers</div>
+
+        <div class="cards">
+            <button class="teacher-btn" id="balaji-btn">
+                <div class="card">
+                    <div class="teacher-img">
+                        <img src="mfd/assets/img/tech1.png" alt="teach" width="100%">
+                    </div>
+                    <div class="teacher-info">
+                        <div class="teacher-name">Dr. Balaji Sampath</div>
+                        <div class="teacher-rank">All India Rank 4 in IIT JEE 1990</div>
+                        <div class="teacher-para">Experience of 10 years <br> in teaching</div>
+                    </div>
+                </div>
+            </button>
+
+            <button class="teacher-btn" id="ksbalaji-btn">
+                <div class="card">
+                    <div class="teacher-img">
+                        <img src="mfd/assets/img/ksbalaji.png" alt="teach" width="100%">
+                    </div>
+                    <div class="teacher-info">
+                        <div class="teacher-name">Prof. K. S. Balaji</div>
+                        <div class="teacher-rank">Physics</div>
+                        <div class="">&nbsp;</div>
+                        <div class="teacher-para">Experience of 10 years <br> in teaching</div>
+                    </div>
+                </div>
+            </button>
+
+            <button class="teacher-btn" id="evvie-btn">
+                <div class="card">
+                    <div class="teacher-img">
+                        <img src="mfd/assets/img/evve.png" alt="teach" width="100%">
+                    </div>
+                    <div class="teacher-info">
+                        <div class="teacher-name">Prof. Evvie Chockalingam</div>
+                        <div class="teacher-rank">Chemistry</div>
+                        <div class="teacher-para">Experience of 10 years <br> in teaching</div>
+                    </div>
+                </div>
+            </button>
+
+            <button class="teacher-btn" id="paul-btn">
+                <div class="card">
+                    <div class="teacher-img">
+                        <img src="mfd/assets/img/paul.png" alt="teach" width="100%">
+                    </div>
+                    <div class="teacher-info">
+                        <div class="teacher-name">Prof. Paul <br> Vinotha Rajan</div>
+                        <div class="teacher-rank">Biology</div>
+                        <div class="teacher-para">Experience of 10 years <br> in teaching</div>
+                    </div>
+                </div>
+            </button>
+        </div>
+
+        <div class="teacher-details-container">
+        </div>
+        <div class="teacher-details-card">
+            <p><span class="teacher-card-close">&times;</span></p>
+            <div class="teacher-card-img">
+                <img src="" width="100" height="100" id="teacherCardImg">
+            </div>
+            <p id="teacherCardText"></p>
+        </div>
+
+
+        <!-- <div class="link-button" id='viewMore'>
+            <button class="view_more">See All Mentors</button>
+        </div> -->
+    </section>
+
+
+    <section class="flexiblestudy">
+        <div class="title">Flexible</div>
+        <div class="title">Study Curriculum</div>
+        <!-- <p class="para">Chose Your Subjects or Get The Complete </p>
+        <p class="para">Foundation Course</p> -->
+
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">IIT-JEE</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">NEET</button>
+        </div>
+
+        <div id="London" class="tabcontent">
+            <ul class="accordian-list">
+                <li class="accordian-items">Physics</li>
+                <li class="accordian-items">Chemistry</li>
+                <li class="accordian-items">Mathematics</li>
+                <li class="accordian-items">Complete Foundation Course</li>
+            </ul>
+            <!-- <ul class="accordian">
+                <li class="accordian-list">
+                    <input type="checkbox" checked="" />
+                    <i></i>
+                    <h2>Physics</h2>
+                    <p>This cours in CBSE as well as in ICSE</p>
+                </li>
+                <li class="accordian-list">
+                    <input type="checkbox" checked="" />
+                    <i></i>
+                    <h2>Chemistry</h2>
+                    <p>
+                        performance of your child, in this section.
+                    </p>
+                </li>
+                <li class="accordian-list">
+                    <input type="checkbox" checked="" />
+                    <i></i>
+                    <h2>Mathematics</h2>
+                    <p>
+                        upgrade your course.</p>
+                </li>
+                <li class="accordian-list">
+                    <input type="checkbox" checked="" />
+                    <i></i>
+                    <h2>Complete Foundation Course</h2>
+                    <p> to access the video
+                        solutions.
+                    </p>
+                </li>
+            </ul> -->
+        </div>
+
+        <div id="Paris" class="tabcontent">
+            <ul class="accordian-list">
+                <li class="accordian-items">Physics</li>
+                <li class="accordian-items">Chemistry</li>
+                <li class="accordian-items">Biology</li>
+                <li class="accordian-items">Complete Foundation Course</li>
+            </ul>
+            <!-- <ul class="accordian">
+                <li class="accordian-list">
+                    <input type="checkbox" checked="" />
+                    <i></i>
+                    <h2>Physics</h2>
+                    <p>This cours in CBSE as well as in ICSE</p>
+                </li>
+                <li class="accordian-list">
+                    <input type="checkbox" checked="" />
+                    <i></i>
+                    <h2>Chemistry</h2>
+                    <p>
+                        performance of your child, in this section.
+                    </p>
+                </li>
+                <li class="accordian-list">
+                    <input type="checkbox" checked="" />
+                    <i></i>
+                    <h2>Biology</h2>
+                    <p>
+                        upgrade your course.</p>
+                </li>
+                <li class="accordian-list">
+                    <input type="checkbox" checked="" />
+                    <i></i>
+                    <h2>Complete Foundation Course</h2>
+                    <p> to access the video
+                        solutions.
+                    </p>
+                </li>
+            </ul> -->
+        </div>
+
+        <div class="enquire-now">
+            <a href="#enquire-form" class="btn">Enquire Now</a>
+        </div>
+
+    </section>
+
+    <section class="student_testi">
+        <div class="title">We've Produced</div>
+        <div class="title">Breakthrough Results!</div>
+
+        <div class="block">
+            <div class="two-colo">
+                <div class="stud-img-left">
+                    <img src="mfd/assets/img/student2.png" alt="Aishwarya" width="100%">
+                </div>
+                <div class="stud-info">
+                    <h4>Aishwarya Prem Renu</h4>
+                    <h4>Carnegie Mellon Uni</h4>
+                </div>
+            </div>
+            <div class="stud_say">
+                <p>Balaji sir's AhaGuru courses made me think hard by showing
+                    several practical examples. He introduced very intuitive
+                    methods to solve the toughest of problems. His techniques to
+                    solve a wide variety of problems helped me understand
+                    Physics in great depth and built my confidence. Balaji Sir will
+                    forever be a huge inspiration to me.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="across_media">
+        <div class="title">We're Featured</div>
+        <div class="title">Across Media</div>
+
+        <div class="grid">
+            <div class="grid-boxes">
+                <div class="imgs">
+                    <a target="_blank"
+                        href="https://www.fortuneindia.com/enterprise/knowledge-must-be-accessible-to-everybody-gomathi-shanmugam-co-founder-ahaguru/105525"><img
+                            src="mfd/assets/img/fortune.jpg" alt="fortune" width="100%"></a>
+                </div>
+                <div class="imgs">
+                    <a target="_blank" href="https://www.thehindubusinessline.com/"><img
+                            src="mfd/assets/img/bussiness.png" alt="bussiness" width="100%"></a>
+                </div>
+                <div class="imgs">
+                    <a target="_blank" href="https://www.mid-day.com/news/"><img src="mfd/assets/img/midday.jpg"
+                            alt="midday" width="100%"></a>
+                </div>
+                <div class="imgs">
+                    <a target="_blank" href="https://www.thehindu.com/"><img src="mfd/assets/img/thehindhu.jpg"
+                            alt="midday" width="100%"></a>
+                </div>
+                <div class="imgs">
+                    <a target="_blank" href="https://yourstory.com/"><img src="mfd/assets/img/yourstory.png"
+                            alt="midday" width="100%"></a>
+                </div>
+                <div class="imgs">
+                    <a target="_blank"
+                        href="https://newstodaynet.com/index.php/2020/06/16/ahagurus-new-initiative/"><img
+                            src="mfd/assets/img/newtoday.png" alt="midday" width="100%"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bottom-chat">
+        <div class="social">
+            <a href="tel:+9600100090" class="whatsapp_float" target="_blank"><i><img
+                        src="mfd/assets/img/Call_icon_tiny.png" alt="call_icon" width="18"></i> GET A CALLBACK</a>
+            <a href="https://wa.me/919600100027" class="whatsapp_float" target="_blank"><i><img
+                        src="mfd/assets/img/whatsapp.svg" alt="whatappLink" width="18"></i> CHAT ON WHATSAPP</a>
+        </div>
+    </section>
+
+
+
+
+    <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/constant.js"></script>
+    <script type="text/javascript" src="mfd/assets/js/oci-script.js"></script>
+
+    <!-- Event snippet for Physics - Page view conversion page -->
+    <script>
+        gtag('event', 'conversion', {
+            'send_to': 'AW-849417668/fL0iCJGo9cICEMSrhJUD'
+        });
+    </script>
+</body>
+
+</html>

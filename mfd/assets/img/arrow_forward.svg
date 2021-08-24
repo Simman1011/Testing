@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="18px" viewBox="0 0 19 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>72C60629-48C1-4B2C-B3BD-B50A5806B496</title>
+    <defs>
+        <path d="M1.17286501,9.30852607 L14.2737672,9.30852607 L8.55018595,14.5951927 C8.0927686,15.0176927 8.0927686,15.7110261 8.55018595,16.1335261 C9.00760331,16.5560261 9.74650826,16.5560261 10.2039256,16.1335261 L17.9331061,8.99435941 C18.3905234,8.57185941 18.3905234,7.88935941 17.9331061,7.46685941 L10.2156543,0.316859406 C9.99652611,0.114002343 9.69902792,0 9.38878444,0 C9.07854095,0 8.78104276,0.114002343 8.5619146,0.316859406 C8.10449725,0.739359406 8.10449725,1.42185941 8.5619146,1.84435941 L14.2737672,7.14185941 L1.17286501,7.14185941 C0.527789256,7.14185941 0,7.62935941 0,8.22519274 C0,8.82102607 0.527789256,9.30852607 1.17286501,9.30852607 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Organic-Chemistry-Mobile" transform="translate(-150.000000, -305.000000)">
+            <g id="Group-3" transform="translate(20.000000, 294.000000)">
+                <g id="Group-2" transform="translate(16.000000, 0.000000)">
+                    <g id="icon/navigation/arrow_forward_24px" transform="translate(114.308196, 11.774800)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

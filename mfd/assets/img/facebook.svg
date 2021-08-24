@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>8D6E4BAA-6E18-4274-B781-50E5885776E5</title>
+    <defs>
+        <polygon id="path-1" points="0 0 10.7117945 0 10.7117945 20 0 20"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Organic-Chemistry-Mobile" transform="translate(-20.000000, -5561.000000)">
+            <g id="Group-30" transform="translate(0.000000, 5179.000000)">
+                <g id="Group-5" transform="translate(20.000000, 382.000000)">
+                    <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                    <g id="Group-3" transform="translate(7.000000, 2.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M10.010288,11.250106 L10.5653882,7.63064922 L7.0923377,7.63064922 L7.0923377,5.2813657 C7.0923377,4.29100365 7.57734377,3.32607897 9.13298098,3.32607897 L10.7117945,3.32607897 L10.7117945,0.244764139 C10.7117945,0.244764139 9.27938724,0 7.90916028,0 C5.04886804,0 3.17950312,1.73369888 3.17950312,4.87154122 L3.17950312,7.63064922 L-0.000169582544,7.63064922 L-0.000169582544,11.250106 L3.17950312,11.250106 L3.17950312,20 L7.0923377,20 L7.0923377,11.250106 L10.010288,11.250106 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
